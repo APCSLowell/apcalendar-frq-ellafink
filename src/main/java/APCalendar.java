@@ -17,6 +17,7 @@ public class APCalendar
       if(isLeapYear(i) == true)
         count ++;
     }
+    return count;
   }
   
   /** Returns the value representing the day of the week for the first day of year,
